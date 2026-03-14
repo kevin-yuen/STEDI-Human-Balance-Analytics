@@ -8,4 +8,4 @@ CREATE EXTERNAL TABLE IF NOT EXISTS stedi.step_trainer_landing (
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
 LOCATION 's3://stedi-project-2026/step_trainer_landing/';
 
-SELECT * FROM stedi.step_trainer_landing LIMIT 10;
+SELECT * FROM stedi.step_trainer_landing;

@@ -15,4 +15,4 @@ CREATE EXTERNAL TABLE IF NOT EXISTS stedi.customer_landing (
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
 LOCATION 's3://stedi-project-2026/customer_landing/';
 
-SELECT * FROM stedi.customer_landing LIMIT 10;
+SELECT * FROM stedi.customer_landing;
