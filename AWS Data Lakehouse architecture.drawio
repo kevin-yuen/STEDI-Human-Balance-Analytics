@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="FuHgRV2eBi6DpxtZwPR2">
-    <mxGraphModel dx="5394" dy="2118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3585" dy="1537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,15 +210,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-54" edge="1" parent="1" source="loukGILBPI9HqwGmvE1R-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;endArrow=none;endFill=0;" target="mMzGQHBv5SOdVuODqIFv-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="275" y="990" />
-              <mxPoint x="910" y="990" />
-              <mxPoint x="910" y="1447" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="loukGILBPI9HqwGmvE1R-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Target table - customer_trusted" vertex="1">
           <mxGeometry height="62" width="159" x="215" y="884" as="geometry" />
         </mxCell>
@@ -238,11 +229,13 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source - Data Catalog Table - accelerometer_landing" vertex="1">
           <mxGeometry height="62" width="159" x="700" y="1220" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-36" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;" target="mMzGQHBv5SOdVuODqIFv-34">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-36" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="mMzGQHBv5SOdVuODqIFv-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="1205" />
+              <mxPoint x="780" y="1350" />
+              <mxPoint x="170" y="1350" />
               <mxPoint x="170" y="2140" />
+              <mxPoint x="215" y="2140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -293,7 +286,7 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-18" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMzGQHBv5SOdVuODqIFv-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Left Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inner Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="159" x="491" y="2060" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Target table - customers_curated" vertex="1">
@@ -308,13 +301,13 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-33" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMzGQHBv5SOdVuODqIFv-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Right Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inner Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="159" x="446" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-35" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mMzGQHBv5SOdVuODqIFv-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source - Data Catalog Table - accelerometer_trusted" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source - Data Catalog Table - accelerometer_landing" vertex="1">
           <mxGeometry height="62" width="159" x="215" y="2104" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
@@ -332,13 +325,13 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-46" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="mMzGQHBv5SOdVuODqIFv-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source - Data Catalog Table - accelerometer_trusted" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source - Data Catalog Table - accelerometer_landing" vertex="1">
           <mxGeometry height="62" width="159" x="706" y="1512" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-50" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMzGQHBv5SOdVuODqIFv-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Left Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inner Join&lt;div&gt;(ct.email == al.user)&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="159" x="446" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-51" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="mMzGQHBv5SOdVuODqIFv-49">
@@ -350,7 +343,7 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-53" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMzGQHBv5SOdVuODqIFv-52" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Left Join&lt;div&gt;(serialNumber == slt.serialNumber&lt;/div&gt;" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inner Join&lt;div&gt;(serialNumber == slt.serialNumber&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="159" x="446" y="1553" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-85" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=none;endFill=0;" target="mMzGQHBv5SOdVuODqIFv-57">
@@ -379,7 +372,7 @@
         <mxCell id="mMzGQHBv5SOdVuODqIFv-84" edge="1" parent="1" source="mMzGQHBv5SOdVuODqIFv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mMzGQHBv5SOdVuODqIFv-66" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMzGQHBv5SOdVuODqIFv-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Left Join&lt;div&gt;(st.sensorReadingTime == at.timeStamp)&lt;/div&gt;" vertex="1">
+        <mxCell id="mMzGQHBv5SOdVuODqIFv-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inner Join&lt;div&gt;(st.sensorReadingTime == at.timeStamp)&lt;/div&gt;" vertex="1">
           <mxGeometry height="62" width="159" x="488" y="2355" as="geometry" />
         </mxCell>
         <mxCell id="mMzGQHBv5SOdVuODqIFv-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Target table - machine_learning_curated" vertex="1">
